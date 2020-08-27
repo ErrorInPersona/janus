@@ -34,7 +34,7 @@ services:
       - ./build/nginx/conf:/etc/nginx/conf.d
       - ./data/static:/static
     ports:
-      - 2222:2222
+      - 8022:8022
     depends_on:
       - web
     restart: always

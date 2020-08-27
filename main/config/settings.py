@@ -49,15 +49,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-
     'corsheaders.middleware.CorsMiddleware',
-
     'janus.middleware.ProfileMiddleware',
-
-    #'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
-    #'oauth2_provider.middleware.OAuth2TokenMiddleware',
-
-    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'config.urls'
